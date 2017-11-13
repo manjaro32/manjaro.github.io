@@ -13,7 +13,9 @@ Read more in our [forum](https://forum.manjaro.org/t/manjaro32-org/34634)
 
 For now you can adopt to Manjaro-32 like this:
 
+```
   sudo sed -i -e 's|stable|x32-unstable|g' /etc/pacman.d/mirrorlist
   sudo pacman -Syy
   sudo pacman -S archlinux32-keyring-transition
   sudo pacman -Suu
+```
